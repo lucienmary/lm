@@ -70,10 +70,11 @@
                         $desc = $parsed_json->{$cpt}->{'desc'};
                         $date = $parsed_json->{$cpt}->{'date'};
                         $text = $parsed_json->{$cpt}->{'text'};
+                        $img = $parsed_json->{$cpt}->{'img'};
 
                         echo '<li><a href="/description_projet.php?project='. $name .'&nb='. $cpt .'">
 
-                            <img src="./assets/images/project-' . $cpt . '.png" alt="Image '. $name .'">
+                            <img src="'. $img .'" alt="Image '. $name .'">
                             <h3>'. $name .'</h3>
                             <p>'. $date .'</p>
                             <p>'. $desc .'</p>
