@@ -3,30 +3,40 @@
         "img": "./assets/images/the-jungle-snack.png",
         "name": "The jungle snack! Jeu en ligne",
         "date": "Juin 2020",
-        "desc": "The jungle snack est un jeu de plateau multi-joueur en ligne."
+        "desc": "The jungle snack est un jeu de plateau multi-joueur en ligne.",
+        "text": "The jungle snack est un jeu de plateau multi-joueur en ligne. Ce projet est développé avec Node.js et socket.io. L'affichage du jeu est réalisé à l'aide du framework Phaser 3. Ce jeu a été réalisé comme travail de fin d'étude.",
+        "link": "http://thejunglesnack.fun/"
     },
     "2": {
         "img": "./assets/images/time-to-work.png",
         "name": "Time to work! Jeu HTML5",
         "date": "Juin 2019",
-        "desc": "Side-project réalisé fin de l'année académique 2018 – 2019. «It's time to work!» est un jeu HTML5 accompagné par un site de présentation."
+        "desc": "Side-project réalisé fin de l'année académique 2018 – 2019. «It's time to work!» est un jeu HTML5 accompagné par un site de présentation.",
+        "text": "Pour mon travail de fin d'année, je pouvais réaliser le projet de mon choix. J'ai choisi de réaliser un mini-jeu d'arcade: «It's time to work!».<br>C'est un jeu HTML5 réalisé à l'aide du framework Phaser. Vous pouvez découvrir le jeu et sa réalisation sur le site du projet!",
+        "link": "https://www.lucienmary.be/projets/tfa/"
     },
     "3": {
         "img": "./assets/images/belgoquizz.png",
         "name": "BelgoQuizz! Web app",
         "date": "Juin 2018",
-        "desc": "Side-project réalisé fin de l'année académique 2017 – 2018. L'app BelgoQuizz est un mini-jeu de culture autour de la Belgique."
+        "desc": "Side-project réalisé fin de l'année académique 2017 – 2018. L'app BelgoQuizz est un mini-jeu de culture autour de la Belgique.",
+        "text": "BelgoQuizz est un projet scolaire pour lequel j'étais libre de choisir le sujet. J'ai choisi de réaliser une web app afin d'en apprendre plus sur les bonnes pratiques des progressive web app (manifest, service workers, etc. ).",
+        "link": "https://www.lucienmary.be/projets/tfa2018/"
     },
     "4": {
         "img": "./assets/images/rux.png",
         "name": "RUX",
         "date": "Mars 2018",
-        "desc": "Rethinking-ux est un atelier d'analyse de site reconnu. Nous devions trouver et améliorer une fonction perfectible du service Medium."
+        "desc": "Rethinking-ux est un atelier d'analyse de site reconnu. Nous devions trouver et améliorer une fonction perfectible du service Medium.",
+        "text": "Rethinking-ux est un atelier d'analyse de site reconnu. Nous devions trouver et améliorer une fonction perfectible du service Medium.<br>Je vous explique, à travers cette page web, mon analyse et la solution que je peux apporter.",
+        "link": "https://www.lucienmary.be/projets/rethinking-ux/"
     },
     "5": {
         "img": "./assets/images/iolce.png",
         "name": "ioLCE",
         "date": "Décembre 2017",
-        "desc": "Input-output, lire et communiquer sur écran : Par groupe, nous devions analyser une conférence et présenter notre interprétation."
+        "desc": "Input-output, lire et communiquer sur écran: Par groupe, nous devions analyser une conférence et présenter notre interprétation.",
+        "text": "Input-output, lire et communiquer sur écran: C'est mon premier projet web.<br>En groupe, nous analysons une conférence en rapport avec le domaine du web, nous la synthétisons et nous l'intégrons dans une page réalisée individuellement.",
+        "link": "https://www.lucienmary.be/projets/iolce/"
     }
 }

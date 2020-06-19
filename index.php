@@ -13,7 +13,7 @@
     </head>
     <body>
         <header>
-            <a href="#">ML</a>
+            <a href="/">ML</a>
 
             <a href="#">Menu</a>
 
@@ -47,7 +47,7 @@
             <p>Je m’appelle Lucien Mary, j’ai 21 ans. Je suis étudiant en DWM à la Haute École Albert Jacquard de Namur. Je me suis dirigé vers ces études après avoir fini mes secondaires avec une qualification en infographie. Ce que je préfère dans la création web, c’est la programmation en JavaScript.</p>
 
             <footer>
-                <a href="#">Me contacter ?</a>
+                <a href="contact.php">Me contacter?</a>
             </footer>
         </section>
 
@@ -69,22 +69,23 @@
                         $name = $parsed_json->{$cpt}->{'name'};
                         $desc = $parsed_json->{$cpt}->{'desc'};
                         $date = $parsed_json->{$cpt}->{'date'};
+                        $text = $parsed_json->{$cpt}->{'text'};
 
-                        echo '<li>
+                        echo '<li><a href="/description_projet.php?project='. $name .'&nb='. $cpt .'">
 
                             <img src="./assets/images/project-' . $cpt . '.png" alt="Image '. $name .'">
                             <h3>'. $name .'</h3>
                             <p>'. $date .'</p>
                             <p>'. $desc .'</p>
-                        </li>';
+                        </a></li>';
                     }
-
                  ?>
             </ul>
         </section>
 
         <footer>
-            <a href="#">Me contacter</a>
+            <a href="/">Accueil</a>
+            <a href="contact.php">Contact</a>
             <p>Lucien Mary - 2020</p>
         </footer>
     </body>
