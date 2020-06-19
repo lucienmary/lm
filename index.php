@@ -20,7 +20,7 @@
             <img src="./assets/images/lucien@2x.jpg" srcset="./assets/images/lucien@2x.jpg 2x" alt="">
 
             <h1>Lucien Mary</h1>
-            <p><strong>Développeur web</strong></p>
+            <p><strong>Junior web developer</strong></p>
 
             <ul>
                 <li>
@@ -34,6 +34,10 @@
                 <li>
                     <a href="mailto:marylucien1998@gmail.com">Email</a>
                 </li>
+
+                <li>
+                    <a href="tel:+32479528839">+32 479 528 839</a>
+                </li>
             </ul>
 
             <a href="#">Scroll</a>
@@ -44,7 +48,15 @@
                 <h2>À propos de moi...</h2>
             </header>
 
-            <p>Je m’appelle Lucien Mary, j’ai 21 ans. Je suis étudiant en DWM à la Haute École Albert Jacquard de Namur. Je me suis dirigé vers ces études après avoir fini mes secondaires avec une qualification en infographie. Ce que je préfère dans la création web, c’est la programmation en JavaScript.</p>
+            <p>Je m’appelle Lucien Mary, j’ai 22 ans. Après une qualification en infographie, j'ai été diplomé en design web et mobile à la Haute École Albert Jacquard en 2020. Vous pouvez retrouver sur ce site mes meilleurs projets.</p>
+
+            <div class="">
+                <span>Intégration HTML/CSS/SCSS</span>
+                <span>Javascript</span>
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>Adobe PS/AI/XD</span>
+            </div>
 
             <footer>
                 <a href="contact.php">Me contacter?</a>
