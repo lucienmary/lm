@@ -1,0 +1,32 @@
+{
+    "1": {
+        "img": "./assets/images/the-jungle-snack.png",
+        "name": "The jungle snack! Jeu en ligne",
+        "date": "Juin 2020",
+        "desc": "The jungle snack est un jeu de plateau multi-joueur en ligne."
+    },
+    "2": {
+        "img": "./assets/images/time-to-work.png",
+        "name": "Time to work! Jeu HTML5",
+        "date": "Juin 2019",
+        "desc": "Side-project réalisé fin de l'année académique 2018 – 2019. «It's time to work!» est un jeu HTML5 accompagné par un site de présentation."
+    },
+    "3": {
+        "img": "./assets/images/belgoquizz.png",
+        "name": "BelgoQuizz! Web app",
+        "date": "Juin 2018",
+        "desc": "Side-project réalisé fin de l'année académique 2017 – 2018. L'app BelgoQuizz est un mini-jeu de culture autour de la Belgique."
+    },
+    "4": {
+        "img": "./assets/images/rux.png",
+        "name": "RUX",
+        "date": "Mars 2018",
+        "desc": "Rethinking-ux est un atelier d'analyse de site reconnu. Nous devions trouver et améliorer une fonction perfectible du service Medium."
+    },
+    "5": {
+        "img": "./assets/images/iolce.png",
+        "name": "ioLCE",
+        "date": "Décembre 2017",
+        "desc": "Input-output, lire et communiquer sur écran : Par groupe, nous devions analyser une conférence et présenter notre interprétation."
+    }
+}
