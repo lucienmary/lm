@@ -1,8 +1,141 @@
 body{
     font-family: 'Work Sans';
     background-color: #262626;
-    color: #fff;
+    color: #6B6B6B;
 }
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
 h1, h2, h3 {
     font-family: 'Staatliches';
+    color: #262626;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+progress{
+    color: yellow;
+    height: 8px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+progress::-moz-progress-bar {
+    border-radius: 0px;
+    background: #ededed !important;
+}
+progress::-webkit-progress-bar {
+    border-radius: 0px;
+    background: #ededed !important;
+}
+progress::-webkit-progress-value{
+    border-radius: 0px;
+    background: #77b5b8 !important;
+}
+progress[value]{
+    border-radius: 0px;
+    background-color: yellow;
+}
+
+.logo{
+    font-family: 'Staatliches';
+    font-size: 3rem;
+    color: white;
+}
+
+.presentation{
+    background-color: white;
+    color: #262626;
+    margin-top: 50px;
+}
+
+.desc p{
+    padding-right: 75px;
+    color: #6B6B6B;
+}
+
+.profile{
+    height: 275px;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.margin-block{
+    margin: 20px;
+}
+
+.vcard{
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+    transform: scale(1.02);
+    background-color: white;
+}
+
+.line{
+    color: #77b5b8;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.reseaux{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.reseaux_el{
+    display: inline;
+    margin-right: 15px;
+}
+
+.reseaux_el:last-child{
+    margin: 0;
+}
+
+.reseaux_el a{
+    width: 30px;
+    padding: 5px;
+    padding-bottom: 20px;
+    box-sizing: content-box;
+}
+
+.reseaux_el a img{
+    width: 30px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.contact__el a{
+    color: #77b5b8;
+}
+
+.skills{
+
+}
+
+.skills__el{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.skills__el h3{
+    font-size: 1.2rem;
+    color: #6B6B6B;
+    margin-bottom: 0;
 }
