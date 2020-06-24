@@ -24,6 +24,37 @@ h2{
     margin-top: 50px;
 }
 
+.footer{
+    text-align: right;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.footer p, .footer a{
+    color: #6B6B6B;
+}
+
+.footer a:before{
+    content:'- ';
+    text-decoration: inherit;
+}
+
+.footer a{
+    text-decoration: underline;
+}
+
+.footer a:first-child:before{
+    content:'';
+}
+
+.footer p{
+    display: inline;
+}
+
+.footer p:before{
+    content: ' | ';
+}
+
 progress{
     color: yellow;
     height: 8px;
@@ -58,6 +89,8 @@ progress[value]{
     background-color: white;
     color: #262626;
     margin-top: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .desc p{
@@ -69,16 +102,24 @@ progress[value]{
     height: 275px;
     min-width: 100%;
     object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .margin-block{
     margin: 20px;
 }
 
+.padding{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 .vcard{
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
-    transform: scale(1.02);
+    transform: scale(1.03);
     background-color: white;
+    border-radius: 10px;
 }
 
 .line{
@@ -141,26 +182,99 @@ progress[value]{
 }
 
 .call-to-action{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .call-to-action a{
     font-family: 'Staatliches';
     font-size: 1.4rem;
-    color: #262626;
-    width: calc(50% - 25px);
+    color: #fff;
     float: left;
-    position: relative;
-    margin-left: 25px;
-    margin-top: 25px;
-    margin-bottom: 12px;
+    width: calc(50% - 75px);
+    margin-right: 75px;
+    margin-bottom: 20px;
     box-sizing: border-box;
+    background-color: #77b3b8;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
 }
 
 .call-to-action:before{
     content: '';
-    width: 116%;
+    width: 115.4%;
     height: 1px;
-    background-color: black;
+    background-color: darkgrey;
     position: absolute;
-    bottom: 60px;
-    left: -15.5%;
+    bottom: 85px;
+    left: -15.4%;
+}
+
+.burger{
+    position: relative;
+    padding: 30px;
+    float: right;
+}
+
+.burger__el{
+    font-size: 0;
+    color: transparent;
+    background-color: #fff;
+    width: 35px;
+    height: 3px;
+    position: absolute;
+    top: 35px;
+    right: 0px;
+}
+
+.burger__el:before{
+    content: '';
+    background-color: #fff;
+    width: 35px;
+    height: 3px;
+    position: absolute;
+    top: -12px;
+}
+
+.burger__el:after{
+    content: '';
+    background-color: #fff;
+    width: 35px;
+    height: 3px;
+    position: absolute;
+    top: 12px;
+}
+
+.c-white{
+    color: white;
+}
+
+.project{
+    background-color: white;
+    margin-bottom: 75px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.project p{
+    color: #6B6B6B;
+}
+
+.project img{
+    padding: 0;
+    object-fit: cover;
+}
+
+.project h3{
+    margin-top: 15px;
+}
+
+.project .date{
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-align: right;
+    margin-right: 5px;
+    color: #d1d1d1;
 }

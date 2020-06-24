@@ -3,7 +3,7 @@
         "img": "./assets/images/the-jungle-snack.png",
         "name": "The jungle snack! Jeu en ligne",
         "date": "Juin 2020",
-        "desc": "The jungle snack est un jeu de plateau multi-joueur en ligne.",
+        "desc": "The jungle snack est un jeu de plateau multi-joueur en ligne. Il fonctionne avec socket.io, sur un serveur Node.js.",
         "text": "The jungle snack est un jeu de plateau multi-joueur en ligne. Ce projet est développé avec Node.js et socket.io. L'affichage du jeu est réalisé à l'aide du framework Phaser 3. Ce jeu a été réalisé comme travail de fin d'étude.",
         "link": "http://thejunglesnack.fun/"
     },
